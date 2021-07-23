@@ -938,6 +938,15 @@
     "mime-types" "^2.1.21"
     "slash" "^2.0.0"
 
+"@gridsome/source-strapi@^0.2.0":
+  "integrity" "sha512-LSPu3am/TqIgW6BCj4DWFbRbaLOR2kpnxM+2RIuL6dWE9h9XMNUFVfUSGuI4WOwwPDJEw2l6QYJJYvtBXBJ7Jw=="
+  "resolved" "https://registry.npmjs.org/@gridsome/source-strapi/-/source-strapi-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "axios" "^0.19.0"
+    "lodash" "^4.17.11"
+    "pluralize" "^7.0.0"
+
 "@gridsome/transformer-remark@^0.6.4":
   "integrity" "sha512-DCRQn1KFLk9Iy+ZjhDdYoTOYhEBphP57dRsLkhLqcnbuMCttDcI6V9udUR6GHgWWN3h0XV2dGVXcQ056Xm9Hpg=="
   "resolved" "https://registry.npmjs.org/@gridsome/transformer-remark/-/transformer-remark-0.6.4.tgz"
@@ -1734,6 +1743,13 @@
   "integrity" "sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA=="
   "resolved" "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz"
   "version" "1.11.0"
+
+"axios@^0.19.0":
+  "integrity" "sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.19.2.tgz"
+  "version" "0.19.2"
+  dependencies:
+    "follow-redirects" "1.5.10"
 
 "babel-loader@8.0.5":
   "integrity" "sha512-NTnHnVRd2JnRqPC0vW+iOQWU5pchDbYXsG2E6DMXEpMfUcQKclF9gmf3G3ZMhzG7IG9ji4coL0cm+FxeWxDpnw=="
@@ -3059,6 +3075,13 @@
   dependencies:
     "ms" "2.1.2"
 
+"debug@=3.1.0":
+  "integrity" "sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "ms" "2.0.0"
+
 "decamelize@^1.1.2":
   "integrity" "sha1-9lNNFRSCabIDUue+4m9QH5oZEpA="
   "resolved" "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz"
@@ -4035,6 +4058,13 @@
   dependencies:
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
+
+"follow-redirects@1.5.10":
+  "integrity" "sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.5.10.tgz"
+  "version" "1.5.10"
+  dependencies:
+    "debug" "=3.1.0"
 
 "for-each@^0.3.3":
   "integrity" "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw=="
@@ -6941,6 +6971,11 @@
   "version" "3.0.0"
   dependencies:
     "find-up" "^3.0.0"
+
+"pluralize@^7.0.0":
+  "integrity" "sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow=="
+  "resolved" "https://registry.npmjs.org/pluralize/-/pluralize-7.0.0.tgz"
+  "version" "7.0.0"
 
 "pngquant-bin@^5.0.0":
   "integrity" "sha512-OLdT+4JZx5BqE1CFJkrvomYV0aSsv6x2Bba+aWaVc0PMfWlE+ZByNKYAdKeIqsM4uvW1HOSEHnf8KcOnykPNxA=="
