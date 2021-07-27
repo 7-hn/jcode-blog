@@ -17,7 +17,7 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL: 'http://49.232.98.120:1337',
+        apiURL: 'http://org.yangjiaxin.cc:1337',
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['post', 'tag'],
         singleTypes: ['general'],

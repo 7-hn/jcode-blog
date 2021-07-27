@@ -30,7 +30,7 @@
               </h3>
             </g-link>
             <p class="post-meta">Posts by
-              <a href="#" v-for="name in edge.node.created_bies">{{ name.firstname + name.lastname }}</a>
+              <a href="#">{{ edge.node.created_by.firstname + edge.node.created_by.lastname }}</a>
               {{ edge.node.created_at }}</p>
             <p>
               <g-link :to="'/tag/' + tag.id" v-for="tag in edge.node.tags" :key="tag.id">{{ tag.title }}</g-link>
@@ -62,7 +62,7 @@ query ($page: Int) {
             id
             title
           }
-        created_bies {
+        created_by {
             id
             firstname
             lastname
